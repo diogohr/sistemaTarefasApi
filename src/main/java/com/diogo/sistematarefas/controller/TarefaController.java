@@ -41,6 +41,10 @@ public class TarefaController {
     public void deletar(@PathVariable Long id) {
         repository.deleteById(id);
     }
+    @GetMapping("/")
+    public String home() {
+        return "API Sistema de Tarefas está rodando 🚀";
+    }
 
 }
 
