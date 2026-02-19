@@ -7,7 +7,7 @@ import com.diogo.sistematarefas.repository.TarefaRepository;
 
 @RestController
 @RequestMapping("/tarefas")
-public class TarefaController {
+public class giTarefaController {
 
     private final TarefaRepository repository;
 
