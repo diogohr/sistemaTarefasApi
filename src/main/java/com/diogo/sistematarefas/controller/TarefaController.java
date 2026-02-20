@@ -43,7 +43,7 @@ public class TarefaController {
     }
     @GetMapping("/")
     public String home() {
-        return "API Sistema de Tarefas está rodando 🚀";
+        return "API Sistema de Tarefas está rodando ";
     }
 
 }
